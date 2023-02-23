@@ -1,0 +1,104 @@
+/* folha de estilização */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: #f0f0f0;
+
+  padding: 24px 59px 63px;
+}
+
+.main {
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  padding: 20px 26px 12px 27px;
+}
+
+.title {
+  color: #ff6a28;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 16px;
+  display: block;
+
+  margin-bottom: 14px;
+}
+
+.image-principal {
+  width: 100%;
+  height: auto;
+}
+
+.informatives {
+  display: flex;
+  gap: 9px;
+
+  margin-top: 10px;
+}
+
+.box-informative {
+  width: 118px;
+  height: 85px;
+
+  background-color: #f0f0f0;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.person {
+  width: 238px;
+
+  flex-direction: row;
+}
+
+.person-wrapper {
+  margin-left: 11px;
+  display: flex;
+  flex-direction: column;
+}
+
+.informative-title {
+  color: #61656d;
+  font-size: 14px;
+}
+
+.informative-emphasis {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ff6a28;
+
+  text-transform: uppercase;
+}
+
+.ingredients {
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  margin-top: 37px;
+  padding: 15px 27px 30px;
+}
+
+.ingredients-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  gap: 8px;
+}
+
+/* 
+tag <div>
+classe texto corrido 
+*/
